@@ -1,0 +1,2 @@
+qtrace.c:9:6:_qtrace_func	24	static
+qtrace.c:38:6:qTrace_Set_OutputFcn	0	static

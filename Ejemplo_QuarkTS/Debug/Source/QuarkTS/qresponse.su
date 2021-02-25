@@ -1,0 +1,5 @@
+qresponse.c:35:6:qResponse_Reset	8	static
+qresponse.c:18:6:qResponse_Setup	8	static
+qresponse.c:81:9:qResponse_ReceivedWithTimeout	24	static
+qresponse.c:59:9:qResponse_Received	8	static
+qresponse.c:121:9:qResponse_ISRHandler	8	static

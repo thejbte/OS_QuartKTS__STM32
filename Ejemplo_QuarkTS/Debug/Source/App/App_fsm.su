@@ -1,0 +1,7 @@
+App_fsm.c:92:14:App_State_NotificationWait	24	static
+App_fsm.c:65:14:App_State_Mode	24	static
+App_fsm.c:106:14:App_State_PushButtonWait	24	static
+App_fsm.c:152:14:App_State_Sleep	16	static
+App_fsm.c:130:14:App_State_ConfigMode	16	static
+App_fsm.c:29:14:App_State_CheckConditions	24	static
+App_fsm.c:180:6:App_State_Failure	0	static

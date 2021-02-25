@@ -1,0 +1,3 @@
+qcritical.c:18:6:qCritical_Enter	8	static
+qcritical.c:32:6:qCritical_Exit	8	static
+qcritical.c:52:6:qCritical_SetInterruptsED	0	static

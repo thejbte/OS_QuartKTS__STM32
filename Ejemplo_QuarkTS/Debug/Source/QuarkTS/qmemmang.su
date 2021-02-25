@@ -1,0 +1,8 @@
+qmemmang.c:176:13:qMemMang_InsertBlockIntoFreeList	12	static
+qmemmang.c:34:9:qMemMang_Pool_Setup	0	static
+qmemmang.c:56:6:qMemMang_Pool_Select	0	static
+qmemmang.c:111:6:qMemMang_Free	8	static
+qmemmang.c:87:6:qFree	8	static
+qmemmang.c:252:7:qMemMang_Allocate	16	static
+qmemmang.c:228:7:qMalloc	8	static
+qmemmang.c:314:8:qMemMang_Get_FreeSize	0	static

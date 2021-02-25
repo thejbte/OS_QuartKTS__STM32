@@ -1,0 +1,17 @@
+stm32l0xx_ll_rcc.h:2189:22:LL_RCC_ClearResetFlags	0	static
+wsq_system.c:104:6:WSQ_SYSTEM_Delay	8	static
+wsq_system.c:109:6:WSQ_SYSTEM_LowLevelInit	16	static
+wsq_system.c:124:6:WSQ_SYSTEM_COPInit	0	static
+wsq_system.c:142:6:WSQ_SYSTEM_FeedCOP	0	static
+wsq_system.c:147:6:WSQ_SYSTEM_StandbyCore	0	static,ignoring_inline_asm
+wsq_system.c:156:6:SysTick_Handler	8	static
+wsq_system.c:163:6:USB_IRQHandler	8	static
+wsq_system.c:168:6:NMI_Handler	0	static
+wsq_system.c:175:6:WSQ_SYSTEM_ResetSFT	8	static
+wsq_system.c:95:6:WSQ_SYSTEM_FatalException	8	static
+wsq_system.c:32:6:Error_Handler	8	static
+wsq_system.c:43:6:SystemClock_Config	120	static
+wsq_system.c:171:6:HardFault_Handler	8	static
+wsq_system.c:181:6:SVC_Handler	0	static
+wsq_system.c:184:6:PendSV_Handler	0	static
+wsq_system.c:187:21:WSQ_SYSTEM_GetResetCause	16	static

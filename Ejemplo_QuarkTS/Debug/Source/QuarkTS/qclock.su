@@ -1,0 +1,7 @@
+qclock.c:13:17:qClock_InternalTick	0	static
+qclock.c:26:6:qClock_SetTimeBase	0	static
+qclock.c:42:6:qClock_SetTickProvider	0	static
+qclock.c:63:9:qClock_Convert2Time	8	static
+qclock.c:89:10:qClock_Convert2Clock	8	static
+qclock.c:111:6:qClock_SysTick	0	static
+qclock.c:145:9:qClock_TimeDeadlineCheck	16	static

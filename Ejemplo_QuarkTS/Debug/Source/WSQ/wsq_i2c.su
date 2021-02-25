@@ -1,0 +1,6 @@
+wsq_i2c.c:19:6:WSQ_I2C_Init	80	static
+wsq_i2c.c:70:10:WSQ_I2C_Write	20	static
+wsq_i2c.c:113:10:WSQ_I2C_Read	16	static
+wsq_i2c.c:153:6:WSQ_I2C_Reset	8	static
+wsq_i2c.c:164:6:WSQ_I2C_Transmit	8	static
+wsq_i2c.c:169:6:WSQ_I2C_Receive	16	static

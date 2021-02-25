@@ -1,0 +1,8 @@
+qstimers.c:17:9:qSTimer_Reload	8	static
+qstimers.c:44:9:qSTimer_Set	16	static
+qstimers.c:169:6:qSTimer_Disarm	0	static
+qstimers.c:188:9:qSTimer_Status	0	static
+qstimers.c:107:9:qSTimer_Expired	8	static
+qstimers.c:77:9:qSTimer_FreeRun	16	static
+qstimers.c:129:10:qSTimer_Elapsed	8	static
+qstimers.c:151:10:qSTimer_Remaining	16	static

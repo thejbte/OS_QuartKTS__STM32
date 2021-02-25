@@ -1,0 +1,3 @@
+wsq_vpc.c:36:6:WSQ_VCP_Init	8	static
+wsq_vpc.c:43:6:WSQ_VCP_Print	8	static
+wsq_vpc.c:52:6:WSQ_VPC_PutChar	24	static

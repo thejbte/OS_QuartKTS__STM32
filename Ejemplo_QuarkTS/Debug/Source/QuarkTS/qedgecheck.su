@@ -1,0 +1,8 @@
+qedgecheck.c:156:9:_qReg_32Bits	0	static
+qedgecheck.c:20:9:qEdgeCheck_Setup	8	static
+qedgecheck.c:48:9:qEdgeCheck_Add_Node	16	static
+qedgecheck.c:77:9:qEdgeCheck_Update	24	static
+qedgecheck.c:139:9:qEdgeCheck_Get_NodeStatus	0	static
+qedgecheck.c:147:6:qEdgeCheck_Set_NodePin	0	static
+qedgecheck.c:162:9:_qReg_16Bits	0	static
+qedgecheck.c:168:9:_qReg_08Bits	0	static

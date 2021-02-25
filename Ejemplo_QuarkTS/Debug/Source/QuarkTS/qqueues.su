@@ -1,0 +1,11 @@
+qqueues.c:10:9:qQueue_IsReady	0	static
+qqueues.c:60:6:qQueue_Reset	8	static
+qqueues.c:37:9:qQueue_Setup	8	static
+qqueues.c:83:9:qQueue_IsEmpty	0	static
+qqueues.c:108:8:qQueue_Count	0	static
+qqueues.c:128:8:qQueue_ItemsAvailable	0	static
+qqueues.c:149:9:qQueue_IsFull	0	static
+qqueues.c:171:7:qQueue_Peek	16	static
+qqueues.c:200:9:qQueue_RemoveFront	8	static
+qqueues.c:259:9:qQueue_Receive	16	static
+qqueues.c:294:9:qQueue_SendGeneric	16	static

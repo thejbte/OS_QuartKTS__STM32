@@ -1,0 +1,7 @@
+wsq_rtc.c:33:6:WSQ_RTC_Init	40	static
+wsq_rtc.c:81:6:WSQ_RTC_SetTime	24	static
+wsq_rtc.c:106:6:WSQ_RTC_ClearWkupFlag	0	static
+wsq_rtc.c:111:6:RTC_IRQHandler	8	static
+wsq_rtc.c:118:6:WSQ_RTC_ClearPendingIRQ	8	static
+wsq_rtc.c:124:10:ConvertMinToSeg	0	static
+wsq_rtc.c:129:10:ConvertHourToSeg	0	static

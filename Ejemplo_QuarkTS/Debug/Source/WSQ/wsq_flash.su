@@ -1,0 +1,6 @@
+wsq_flash.c:31:6:WSQ_RestoreDataFlash	16	static
+wsq_flash.c:63:6:WSQ_Flash_Read	8	static
+wsq_flash.c:68:6:WSQ_Flash_Write_Word	16	static
+wsq_flash.c:55:6:WSQ_Flash_Write	32	static
+wsq_flash.c:74:10:WSQ_Flash_Read_Word	0	static
+wsq_flash.c:81:9:WSQ_Flash_IsEmpty	16	static

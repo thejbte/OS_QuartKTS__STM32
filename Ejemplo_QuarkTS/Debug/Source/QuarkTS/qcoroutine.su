@@ -1,0 +1,2 @@
+qcoroutine.c:25:6:qCR_ExternControl	4	static
+qcoroutine.c:52:9:_qCR_Sem	0	static

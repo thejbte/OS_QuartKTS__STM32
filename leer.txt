@@ -1,0 +1,12 @@
+Funcionamiento:
+Dispositivo se encuentra en modo deep sleep , se enciende por tiempo o por un botón externo (wake up pin) , entra a la fsm al estado App_State_CheckConditions , verifica si el usb está conectado y si es así entra en modo configuración App_State_ConfigMode  donde recibe comandos AT y si recibe at+read  envía una flag propia del QuarkTS que coloca un led blink, si se desconecta reinicia por SF.
+Si  en App_State_CheckConditions no entra a modo configurar, ira al estado App_State_Mode el cual de acuerdo a la fuente de wakeup va a App_State_PushButtonWait o App_State_NotificationWait , cualquiera de los dos estados  habilita una tarea periódica y envía al siguiente estado  App_State_NotificationWait , la tarea periódica es  lTaskHandlerEvents_Scan  su callback es App_Task_ScanAndEvents_Callback
+en esta tarea escanea se lee un sensor y se envía a sigfox, luego envía una notificación a la fsm (estado actual App_State_NotificationWait  ) para que vaya a modo sleep, luego apagó la tarea. 
+si llega esa notificación vaa modo sleep App_State_Sleep donde coloca en bajo consumo todos los periféricos.
+todo lo referente a SigFox es manejado con un servicio y un driver , dentro del servicio se usa coroutine , para la inicialización del servicio se usa una tarea (Task_SigFox_Service) periódica deshabilitada, para el envío de un mensaje se usa una tarea (Task_UplinkDispatcher ) que está asociada a una cola ( qTask_Attach_Queue ), la cual cuando se llena dispara el callback(Service_Sigfox_UplinkDispatcher_Callback)
+y envía el mensaje al backen de sigfox.
+Los comandos AT están vinculados al SO .
+
+IDE: STM32CubeIDE1.4
+Ver configuraciones del proyecto para los include del QuarkTS y de las demás bibliotecas del fw.
+El objetivo de este ejemplo es aprender a manejar  el QuarkTS  SO .

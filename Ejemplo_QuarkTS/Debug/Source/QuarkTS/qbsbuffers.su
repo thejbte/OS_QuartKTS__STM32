@@ -1,0 +1,8 @@
+qbsbuffers.c:35:8:qBSBuffer_Count	0	static
+qbsbuffers.c:59:9:qBSBuffer_IsFull	8	static
+qbsbuffers.c:79:9:qBSBuffer_Empty	8	static
+qbsbuffers.c:99:10:qBSBuffer_Peek	8	static
+qbsbuffers.c:122:9:qBSBuffer_Get	16	static
+qbsbuffers.c:147:9:qBSBuffer_Read	16	static
+qbsbuffers.c:175:9:qBSBuffer_Put	16	static
+qbsbuffers.c:198:6:qBSBuffer_Setup	12	static

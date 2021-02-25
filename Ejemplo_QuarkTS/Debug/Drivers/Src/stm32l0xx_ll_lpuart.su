@@ -1,0 +1,3 @@
+stm32l0xx_ll_lpuart.c:117:13:LL_LPUART_DeInit	0	static
+stm32l0xx_ll_lpuart.c:153:13:LL_LPUART_Init	24	static
+stm32l0xx_ll_lpuart.c:229:6:LL_LPUART_StructInit	0	static

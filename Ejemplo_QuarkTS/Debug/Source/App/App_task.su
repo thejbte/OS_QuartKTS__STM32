@@ -1,0 +1,4 @@
+App_task.c:80:6:App_Task_ScanAndEvents_Callback	32	static
+App_task.c:180:6:App_Task_Idle	0	static
+App_task.c:192:9:App_DiscrimateFrameDownlink	0	static
+App_task.c:197:6:App_Update_BattSocOrmV	0	static

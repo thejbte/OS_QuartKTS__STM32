@@ -1,0 +1,16 @@
+stm32l0xx_ll_bus.h:987:22:LL_IOP_GRP1_EnableClock	8	static
+wsq_uart.c:28:6:WSQ_UART_SigFoxInit	88	static
+wsq_uart.c:79:6:WSQ_UART_SigFoxPutChar	0	static
+wsq_uart.c:85:6:WSQ_UART_SigFoxPutString	8	static
+wsq_uart.c:92:6:WSQ_UART_SigFoxSetCustomInputHandler	0	static
+wsq_uart.c:97:6:USART1_IRQHandler	8	static
+wsq_uart.c:122:6:WSQ_UART_WiFiInit	88	static
+wsq_uart.c:173:6:WSQ_UART_WiFiPutChar	0	static
+wsq_uart.c:180:6:WSQ_UART_WiFiPutString	8	static
+wsq_uart.c:187:6:WSQ_UART_WiFiSetCustomInputHandler	0	static
+wsq_uart.c:191:6:USART4_5_IRQHandler	8	static
+wsq_uart.c:220:6:WSQ_UART_DebugInit	88	static
+wsq_uart.c:275:6:WSQ_UART_DebugPutChar	0	static
+wsq_uart.c:283:6:WSQ_UART_DebugPutString	8	static
+wsq_uart.c:290:6:WSQ_UART_DebugSetCustomInputHandler	0	static
+wsq_uart.c:294:6:RNG_LPUART1_IRQHandler	8	static
